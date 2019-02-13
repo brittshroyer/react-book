@@ -1,0 +1,65 @@
+.username-requirement {
+  font-size: 9px;
+  margin-top: 3px;
+}
+
+.profile-picture-container {
+  margin: 50px 10px;
+}
+
+.profile-picture-container i {
+  font-size: 175px;
+}
+
+.loading-container {
+  padding-top: 75px;
+}
+
+img {
+  position: relative;
+  width:  215px;
+  height: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.d-none {
+  display: none !important;
+}
+
+/* .photo-upload-btn {
+  position: absolute;
+  bottom: 70px;
+  left: 100px;
+} */
+
+.Detail-container {
+  position: relative;
+}
+
+.profile-picture-container {
+  height: 160px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.form-control-feedback {
+  top: 28px !important;
+}
+
+.form-control {
+  color: white;
+}
+
+
+/* .justify-content-between {
+  justify-content:
+} */
