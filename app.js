@@ -14,7 +14,7 @@ require('dotenv').config();
 
 var app = express();
 
-// app.use(cors({origin: '*'}));
+app.use(cors({origin: '*'}));
 app.use(express.static(path.join(__dirname, 'client/build')));
 
 mongoDB = 'mongodb://admin:' + process.env.MLABPASSWORD + '@ds149373.mlab.com:49373/myspace';
